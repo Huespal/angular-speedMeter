@@ -1,7 +1,7 @@
 {
-  "name": "speedMeter",
+  "name": "angular-speedMeter",
   "version": "0.1",
-  "main": "./speedMeter.js",
+  "main": "./angular-speedMeter.js",
   "ignore": [],
   "dependencies": {
     "angular": "1.2"
