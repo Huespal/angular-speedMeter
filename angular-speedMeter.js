@@ -6,8 +6,8 @@
             .service('$speedMeter', [function(){
 
                 //TODO: Custom image
-                var imageAddr = "http://saltamarges.cat/wp-content/uploads/2013/01/arrow_small_up.gif",
-                    downloadSize = 278, //bytes
+                var imageAddr = "http://www.kenrockwell.com/contax/images/g2/examples/31120037-5mb.jpg",
+                    downloadSize = 4995374, //bytes
                     results = {};
 
                 /**
