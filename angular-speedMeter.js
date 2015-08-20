@@ -14,8 +14,8 @@
                  * Mesures connection speed
                  * @returns {{}} Speed in bytes, Kilobytes and Megabytes.
                  */
-                this.measureConnectionSpeed = function () {
-                    var startTime, endTime;
+                this.measureConnectionSpeed = function ($scope) {
+                    var startTime, endTime,
                         download = new Image();
 
                     download.onload = function () {
@@ -37,15 +37,14 @@
                             speedBps = (bitsLoaded / duration).toFixed(2),
                             speedKbps = (speedBps / 1024).toFixed(2),
                             speedMbps = (speedKbps / 1024).toFixed(2);
-                        results = {
-                            speedBps: speedBps,
-                            speedKbps: speedKbps,
-                            speedMbps: speedMbps
-                        };
+
+                        $scope.speedBps = speedBps;
+                        $scope.speedKbps = speedKbps;
+                        $scope.speedMbps = speedMbps;
                     }
 
                     return results;
                 }
 
             }]);
-}(window, window.angular ));
+})(window, window.angular );
