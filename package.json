@@ -1,6 +1,6 @@
 {
   "name": "angular-speedMeter",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "AngularJS speedMeter module",
   "main": "angular-speedMeter.js",
   "scripts": {
