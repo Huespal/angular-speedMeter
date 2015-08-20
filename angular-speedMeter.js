@@ -41,6 +41,7 @@
                         $scope.speedBps = speedBps;
                         $scope.speedKbps = speedKbps;
                         $scope.speedMbps = speedMbps;
+                        $scope.$apply();
                     }
 
                     return results;
