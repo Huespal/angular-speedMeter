@@ -1,0 +1,28 @@
+{
+  "name": "angular-speedMeter",
+  "version": "0.1",
+  "description": "AngularJS speedMeter module",
+  "main": "angular-speedMeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huespal/angular-speedMeter.git"
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "speed",
+    "client-side",
+    "meter",
+    "sanlu"
+  ],
+  "author": "Daniel San Luis Rovira <danisanrov@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huespal/angular-speedMeter/issues"
+  },
+  "homepage": "https://github.com/Huespal"
+}
